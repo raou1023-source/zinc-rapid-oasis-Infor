@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Shippori Mincho", "Noto Serif JP", "Hiragino Mincho ProN", serif;
+  --font-sans: "Noto Sans JP", "Noto Sans SC", "Noto Sans KR", "Hiragino Sans", "Yu Gothic", system-ui, sans-serif;
+
+  --color-paper: #f4efe6;
+  --color-paper-2: #ebe4d8;
+  --color-ink: #161412;
+  --color-muted: #6b6560;
+  --color-faint: #9a938b;
+  --color-rule: #d7cfc3;
+  --color-vermilion: #9b2d2d;
+  --color-vermilion-soft: #d7a3a0;
+  --color-tone-ent: #9b2d2d;
+  --color-tone-mus: #4a3a5c;
+  --color-tone-pol: #2c3d52;
+  --color-tone-spo: #2f4a3a;
+  --color-tone-eco: #5a4630;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .ticker-track {
+    animation: ticker-scroll 48s linear infinite;
+    will-change: transform;
+    backface-visibility: hidden;
+  }
+  .ticker-wrap:hover .ticker-track,
+  .ticker-wrap:focus-within .ticker-track {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes ticker-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ticker-track {
+    animation: none;
+  }
+}

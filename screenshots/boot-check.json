@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "In報",
+      "hasCanvas": false,
+      "bodyTextLen": 4735,
+      "bodyTextHash": "5d6959d9c89afb477b310944da419f26d314efb42ed7d81c638a4fcc977376da",
+      "bodyTextPrefix": "2026年9月9日水曜日 日 EN 中 한 05:30 JST · 東京 JAPAN EDITION In報 海外・芸能・政治・",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/boot-check.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "In報",
+      "hasCanvas": false,
+      "bodyTextLen": 4717,
+      "bodyTextHash": "22349b009fc57cecebcb2dd845a70f802ab11bd39a1855eceff2b89e46b23834",
+      "bodyTextPrefix": "2026年9月9日水曜日 日 EN 中 한 JAPAN EDITION In報 海外・芸能・政治・スポーツ・経済。いまを、朝刊の",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/boot-check-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/boot-check.json"
+}

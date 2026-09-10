@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "晨報 SHINPO",
+      "hasCanvas": false,
+      "bodyTextLen": 2924,
+      "bodyTextHash": "d1455567b13bd0612037fbff695a119eb5866ec029060dedef603a9e9df78946",
+      "bodyTextPrefix": "2026年9月8日火曜日 日 EN 中 한 16:06 JST · 東京 JAPAN EDITION 晨報 SHINPO 芸能・",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "晨報 SHINPO",
+      "hasCanvas": false,
+      "bodyTextLen": 2906,
+      "bodyTextHash": "91cc6cc642ba6cfda9beb79c70b22fa9e3dd8e5c2acf70e00e928b93a17eb984",
+      "bodyTextPrefix": "2026年9月8日火曜日 日 EN 中 한 JAPAN EDITION 晨報 SHINPO 芸能・政治・スポーツ・経済。いまを、",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

@@ -1,0 +1,9 @@
+<!doctype html><html><body style="margin:0;background:#ccc">
+<canvas id="c" width="16" height="16"></canvas>
+<img id="i" width="16" height="16" src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Crect%20width%3D%2216%22%20height%3D%2216%22%20rx%3D%223%22%20fill%3D%22%239B2D2D%22%2F%3E%3Cpath%20fill%3D%22%23F4EFE6%22%20fill-rule%3D%22evenodd%22%20d%3D%22M4%203h8v10H4zm2%202h4v2H6zm0%204h4v2H6z%22%2F%3E%3C%2Fsvg%3E'>
+<script>
+const img = document.getElementById('i');
+await new Promise(r => img.complete ? r() : img.onload = r);
+const c = document.getElementById('c');
+c.getContext('2d').drawImage(img,0,0,16,16);
+</script></body></html>
